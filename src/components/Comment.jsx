@@ -162,7 +162,7 @@ const Comment = ({ comment, level = 1 }) => {
                 {comment.user.username}
                 {userIsCurrent ? (
                   <span className="mx-2 text-xs text-white bg-midblue py-1 px-2 rounded-sm">
-                    YOU
+                    you
                   </span>
                 ) : null}
               </div>
